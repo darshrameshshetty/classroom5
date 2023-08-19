@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+ 
+}
+.bimage{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5acd6b71da02bcf0fc160fce/1530042443340-4JVT1P6F8G2LJCASBEAC/banner-3.jpg?format=2500w);
+height: 100%;
+width: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+;
+
+}
+.logo{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5acd6b71da02bcf0fc160fce/1530029256964-CV7MA5GKTQE3U3NZMNAA/upstate-laundromat-logo.png?format=1500w);
+height: 180px;
+width: 180px;
+ background-size: contain;
+ background-repeat: no-repeat;
+ position: relative;
+ top: 5%;
+ justify-content: center;
+
+}
+
+.arrange{
+    display: flex;
+  gap: 29px;
+   justify-content: center;
+   position: relative;
+   top: 40px;
+}
+h4{
+    color: #EBEFF4;
+}
+h4{
+    position: relative;
+    top: 55px;
+}
+i{
+    position: relative;
+    top: 55px; 
+}
+
+h1{
+   
+    font-size:55px;
+color: #FFFFFF;
+font-weight: 600;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h3{
+    font-size: smaller;
+    color:#EBEFF3 ;
+}
+.middlepart{
+    position: absolute;
+    top: 50%;
+    left: 170px;
+}
+
+.btn{
+    display: flex;
+}
+
+button{
+    color: #5C5C5C;
+    padding: 16px 35px;
+    background-color:#FFFFFF ;
+    border-radius: 24px;
+}
+
